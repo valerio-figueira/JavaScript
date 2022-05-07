@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JScript Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Hello, world!</h1>
+        <h2>I'm learning JavaScript</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sit dolorum omnis exercitationem at quaerat aliquam perspiciatis excepturi nihil neque, quod est officia numquam consectetur minima magnam soluta corrupti repudiandae.</p>
+        <script>
+            var nome = window.prompt('Qual é seu nome?')
+            document.writeln(`Olá <strong>${nome}</strong>, seu nome tem ${nome.length} letras.`)
+            document.writeln(`<br>Seu nome em letras maiúsculas é <strong>${nome.toUpperCase()}</strong>.`)
+            document.writeln(`<br>Seu nome em letras minúsculas é <strong>${nome.toLowerCase()}</strong>.`)
+        </script>
+    </main>
+</body>
+</html>

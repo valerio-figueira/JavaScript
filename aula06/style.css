@@ -1,0 +1,45 @@
+@charset "UTF-8";
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: midnightblue;
+        }
+        main{
+            background-color: beige;
+            width: 80%;
+            height: 600px;
+            margin: auto;
+            padding: 20px;
+            box-shadow: 6px 6px #83d80c;
+        }
+        h1{
+            background-color: midnightblue;
+            color: #c0ef31;
+            padding: 15px;
+        }
+        h2{
+            background-color: midnightblue;
+            color: #c0ef31;
+            text-align: left;
+            padding: 2px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        th{
+            border-style: dotted;
+            border-width: 2px;  
+            padding: 8px;
+            background-color: midnightblue;
+            color: #c0ef31;
+            text-align: center;
+        }
+        td{
+            border-style: dotted;
+            border-width: 2px;
+            padding: 8px;
+            background-color: honeydew;
+            text-align: center;
+        }
+        p{
+            text-align: justify;
+        }
