@@ -3,12 +3,54 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             background-color: midnightblue;
         }
+
+
+        header{
+            max-width: 920px;
+            min-width: 640px;
+            margin: 0px auto 0px auto;
+        }
+        header h1{
+            padding: 20px;
+            color: midnightblue;
+            background-color: beige;
+            box-shadow: 6px 6px #83d80c;
+        }
+
+
+        nav{
+            margin: -5px auto 16px auto;
+            max-width: 920px;
+            min-width: 640px;
+            background-color: beige;
+            box-shadow: 6px 6px #83d80c;
+        }
+        nav div {
+            padding: 12px 8px 12px 8px;
+        }
+        nav div a {
+            padding: 12px 8px 12px 8px;
+            text-decoration: none;
+            color: midnightblue;
+        }
+        nav div a:hover{
+            background-color: midnightblue;
+            color: #c0ef31;
+        }
+
+
+        div#res{
+            margin: 9px 0px 0px 0px;
+        }
+
+
+
         main{
             background-color: beige;
-            width: 70%;
+            max-width: 920px;
+            min-width: 640px;
             height: 600px;
             margin: auto;
-            padding: 20px;
             box-shadow: 6px 6px #83d80c;
         }
         h1{
@@ -42,4 +84,8 @@
         }
         p{
             text-align: justify;
+        }
+
+        section{
+            padding: 20px;
         }
