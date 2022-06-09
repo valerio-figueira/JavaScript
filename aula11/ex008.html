@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Origem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Condição Nacionalidade</h1>
+        <div>
+            <p>
+                Digite seu país de origem: 
+                <input type="text" id="país">
+            
+                <input type="button" value="Verificar" id="btn">
+            </p>
+        <div id="res"></div>
+        </div>
+        
+        <script>
+            var text = document.querySelector('input#país')
+            país = String(text.value)
+            var n = document.querySelector('input#btn')
+            var res = document.querySelector('div#res')
+            n.addEventListener('click', function(){
+                if(país == 'Brasil'){
+                    res.innerHTML = 'É Brasileiro'
+                } else{
+                    res.innerHTML = 'É Estrangeiro'
+                }
+            })
+        </script>
+    </main>
+</body>
+</html>
