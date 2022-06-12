@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verificar Sexo</title>
+    <title>Verificar Vogal ou Consoante</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Verificar Sexo</h1>
+        <h1>Verificar Vogal ou Consoante</h1>
     </header>
     <section class="container">
         <div class="content">
-            <p>Digite o sexo (M) ou (F):
-            <input type="gender" name="gender" id="gender"></p>
-            <input type="button" value="Verificar" class="btn-start" onclick="verificar()">
+            <p>Digite a letra:
+            <input type="text" name="letter" id="letter"></p>
+            <input type="button" value="Verificar" class="btn" onclick="verificar()">
         </div>
         <div id="res">
         </div>
+        <input type="button" value="Limpar Caixa" onclick="limpar()" class="btn" style="display: block; margin:auto;">
     </section>
     <footer>
         <p>&copy; 2022 - All rights reserved.</p>
