@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+:root{
+    --prime-color: #005C53;
+    --second-color: #DBF227;
+    --third-color: #D6D58E;
+    --fifth-color: #9FC131;
+    --first-background-color: azure;
+    --second-background-color: #042940;
+    --max-width: 760px;
+    --min-width: 540px;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--second-background-color);
+    max-width: var(--max-width);
+    min-width: var(--min-width);
+    margin: auto;
+}
+
+header{
+    background-color: var(--second-background-color);
+    color: var(--second-color);
+    padding: 16px;
+    margin: 8px 0px;
+    text-align: center;
+}
+
+main{
+    background-color: var(--first-background-color);
+    padding: 26px;
+    border-radius: 4px;
+}
+
+footer{
+    padding: 14px;
+    color: var(--second-color);
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: larger;
+}
+
+article > h1{
+    background-color: var(--second-background-color);
+    color: var(--second-color);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+p{
+    text-indent: 22px;
+}
+
+
+input{
+    padding: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+table, th{
+    margin: auto;
+    padding: 8px;
+    border: 1px solid #00000050;
+}
+
+th{
+    background-color: var(--prime-color);
+    color: var(--third-color);
+    margin: 8px;
+    border-radius: 4px;
+}
+
+th, td{
+    padding: 4px;
+}
+
+.flex-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn{
+    background-color: var(--second-background-color);
+    color: var(--second-color);
+    margin-top: 8px;
+    padding: 10px 26px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bolder;
+    font-size: 18px;
+    box-shadow: 0px 0px 4px 2px rgba(0, 170, 255, 0.388);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: var(--prime-color);
+    transition: 0.5s;
+}
+
+#media{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+#media > p{
+    border: 2px solid #00000075;
+    padding: 4px;
+    margin-left: 2px;
+    border-radius: 4px;
+}

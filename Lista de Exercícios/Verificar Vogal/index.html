@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar Vogal ou Consoante</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificar Vogal ou Consoante</h1>
+    </header>
+    <section class="container">
+        <div class="content">
+            <p>Digite a letra:
+            <input type="text" name="letter" id="letter"></p>
+            <input type="button" value="Verificar" class="btn" onclick="verificar()">
+        </div>
+        <div id="res">
+        </div>
+        <input type="button" value="Limpar Caixa" onclick="limpar()" class="btn" style="display: block; margin:auto;">
+    </section>
+    <footer>
+        <p>&copy; 2022 - All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

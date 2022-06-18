@@ -1,0 +1,85 @@
+body{
+    background-color: #359999;
+    font: normal 15pt Arial;
+}
+header{
+    color: azure;
+    text-align: center;
+}
+section{
+    background-color: azure;
+    border-radius: 4px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.458);
+}
+footer{
+    color: azure;
+    text-align: center;
+    font-style: italic;
+}
+
+div {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.content{
+    margin-top: 0;
+}
+.content > p{
+    text-align: left;
+    display: inline;
+}
+#res{
+    margin: 25px 28px;
+    border: 1px solid #00000051;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px 1px #0000003a;
+}
+#res > p{
+    font-size: 16px;
+    text-align: center;
+    padding: 4px 16px;
+    margin: 2px;
+}
+
+.btn{
+    margin-top: 12px;
+    margin-left: 14px;
+    padding: 10px 28px;
+    background-color: #359999;
+    border: none;
+    color: azure;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 6px;
+    box-shadow: 0px 0px 3px 1px #00000049;
+    cursor: pointer;
+}
+.btn:hover{
+    transition: 0.6s;
+    background-color: #28b7b7;
+    box-shadow: 0px 0px 3px 2px rgba(36, 159, 193, 0.512);
+}
+
+
+table{
+    margin: 18px auto;
+    width: 160px;
+    padding: 2px;
+    border: 1px solid #00000045;
+}
+th{
+    padding: 14px;
+    border: 1px solid #00000045;
+}
+td{
+    height: 17px;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px;
+    padding: 14px;
+    border: 1px solid #00000045;
+}
